@@ -9,5 +9,7 @@ public class ApplicationContext {
         DataSourceProperties dataSourceProperties = context.getBean(DataSourceProperties.class);
         System.out.println(dataSourceProperties);
         context.close();
+
+        /*这是一些注释*/
     }
 }
